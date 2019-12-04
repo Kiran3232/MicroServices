@@ -1,0 +1,1 @@
+INSERT INTO EMPLOYEE (employee_name,employee_age,employee_role,employee_salary) VALUES ('Ramesh',22,'Analyst',20000),('Suresh',25,'Developer',45000);
