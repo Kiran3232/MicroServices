@@ -1,31 +1,15 @@
-package com.application.employeeservice.model;
+package com.application.compareemployees.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "Employee")
 public class Employee {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "employee_id")
 	private Integer employeeId;
-	
-	@Column(name = "employee_name")
+
 	private String employeeName;
-	
-	@Column(name = "employee_age")
+
 	private Integer employeeAge;
-	
-	@Column(name = "employee_role")
+
 	private String employeeRole;
-	
-	@Column(name = "employee_salary")
+
 	private Integer employeeSalary;
 
 	public Integer getEmployeeId() {
@@ -137,6 +121,4 @@ public class Employee {
 			return false;
 		return true;
 	}
-	
-	
 }
