@@ -1,1 +1,1 @@
-INSERT INTO EMPLOYEE (employee_name,employee_age,employee_role,employee_salary) VALUES ('Ramesh',22,'Analyst',20000),('Suresh',25,'Developer',45000);
+INSERT INTO EMPLOYEE (employee_name,employee_age,employee_role,employee_salary) VALUES ('Ramesh',22,'Analyst',20000),('Suresh',25,'Developer',45000),('Roopa',32,'Technical Lead',100000),('Amy',28,'Sr.Developer',85000);
